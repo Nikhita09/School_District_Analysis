@@ -14,11 +14,12 @@ After assessing the situation with the school superintendent and Maria, you deci
    a) Replace the ninth-grade math and reading scores from Thomas High School.
    b) Keep all other data associated with the ninth-grade students and Thomas High School intact.
    
-We will recalculate all outcomes after replacing the scored with Nan.
+We will recalculate all outcomes after replacing the scored with NaN.
 
 ## Resources
 
 Data Source : schools_complete.csv , students_complete.csv
+
 Software : Python 3.7.7, Anaconda 2019.07, Conda 4.11.7, Jupyter Notebook, Pandas
 
 ## Summary
@@ -35,29 +36,30 @@ Software : Python 3.7.7, Anaconda 2019.07, Conda 4.11.7, Jupyter Notebook, Panda
     - For Thomas High School, the average math and reading scores remain almost the same, however the % of student who passed math decreased from 93% to 67%. The % of students passing reading reduced from 97% to 70%. The % of students passing both math and reading reduced from 91% to 65%.
 
 3) How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance, relative to the other schools?
-By replacing all math and reading scores of ninth graders in Thomas High School the following chahnges in the schools performance were noticed:
+    By replacing all math and reading scores of ninth graders in Thomas High School the following changes in the schools performance were noticed:
     - For Thomas High School, the average math and reading scores remain almost the same.
     - However the % of student who passed math decreased from 93% to 67%.
     - The % of students passing reading reduced from 97% to 70%.
     - The % of students passing both math and reading reduced from 91% to 65%.
 
 4) How does replacing the ninth grade scores affect the following:
-    a) Math and Reading Scores by Grade
+    
+    - Math and Reading Scores by Grade
         - The math and reading scores for nith grade in Thomas High School is replaced with nan. No other changes are observed.
 
-    b) Scores by School Spending
-        - Only the spending bracket $630-644 saw any changes which were
-            i) The % of students who passed in math reduced from 73% to 67%.
-            ii) The % of students who passed in reading reduced from 84% to 77%.
-            iii) The % of students who passed both math and reading reduced from 63% to 56%.
-    c) Scores by School Size
+    - Scores by School Spending
+        - Only the spending bracket $630-644 saw any changes which were:
+            - The % of students who passed in math reduced from 73% to 67%.
+            - The % of students who passed in reading reduced from 84% to 77%.
+            - The % of students who passed both math and reading reduced from 63% to 56%.
+    - Scores by School Size
         - Only medium school size (1000 - 2000) saw changes which were:
-            i) The % of students who passed in math reduced from 94% to 88%.
-            ii) The % of students who passed in reading reduced from 97% to 91%.
-            iii) The % of students who passed both math and reading reduced from 91% to 85%.
+            - The % of students who passed in math reduced from 94% to 88%.
+            - The % of students who passed in reading reduced from 97% to 91%.
+            - The % of students who passed both math and reading reduced from 91% to 85%.
             
-    d) Scores by School Type
+    - Scores by School Type
         - Only Charter school type saw changes which were:
-            i) The % of students who passed in math reduced from 94% to 90%.
-            ii) The % of students who passed in reading reduced from 97% to 93%.
-            iii) The % of students who passed both math and reading reduced from 90% to 87%.
+            - The % of students who passed in math reduced from 94% to 90%.
+            - The % of students who passed in reading reduced from 97% to 93%.
+            - The % of students who passed both math and reading reduced from 90% to 87%.
